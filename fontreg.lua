@@ -9,7 +9,7 @@
      getcustomasset 			= getcustomasset or typeface.Incompatible()
  end
  
- local Http = cloneref and cloneref(game:GetService 'HttpService') or game:GetService 'HttpService'
+ local Http = cloneref and cloneref(game:GetService("HttpService")) or game:GetService("HttpService")
  --
  typeface.typefaces = {  }
  typeface.WeightNum = { 
