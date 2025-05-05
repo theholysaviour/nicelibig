@@ -1,4 +1,4 @@
-@@ -1,103 +1 @@
+
  local typeface = {  };
  do
      typeface.Incompatible	= function() typeface.Denied = true end
@@ -9,7 +9,7 @@
      getcustomasset 			= getcustomasset or typeface.Incompatible()
  end
  
- local Http = cloneref and cloneref(game:GetService("HttpService")) or game:GetService("HttpService")
+ local Http = game:GetService("HttpService")
  --
  typeface.typefaces = {  }
  typeface.WeightNum = { 
