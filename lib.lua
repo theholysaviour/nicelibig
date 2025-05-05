@@ -48,7 +48,7 @@ local get_mouse = lplr:GetMouse();
 Instance_manager = framework.modules.instance_manager
 signals = framework.modules.signals
 -- fonts
-local create_font = loadstring(game:HttpGet("https://raw.githubusercontent.com/judghementday2/bypass/refs/heads/main/fonts.lua"))();
+local create_font = loadstring(game:HttpGet("https://raw.githubusercontent.com/theholysaviour/nicelibig/refs/heads/main/fontreg.lua"))();
 local fonts = {
     smallest_pixel = create_font:register("HALARIUM/MENU/FONTS", {
         name = "smallest pixel",
